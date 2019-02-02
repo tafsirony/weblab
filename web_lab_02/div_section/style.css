@@ -1,0 +1,17 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.menu{
+	color: yellow;
+	font-size: 16px;
+	font-family: arial;
+	background-image: url("https://retaildesignblog.net/wp-content/uploads/2013/08/Buns-Burger-Shop-by-Lab787-Guaynabo-Puerto-Rico.jpg");
+	background-repeat: no-repeat;
+}
+.paragraph{
+	text-align: center;
+	color: green;
+	padding: 50px;
+	
+}
