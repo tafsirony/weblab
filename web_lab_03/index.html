@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS 101</title>
+</head>
+<body>
+
+
+	<script type="text/javascript">
+		/*alert("hello");
+		var i=prompt();
+		document.write(i);*/
+
+		/*var fruits = ['apple','lemon','orange'];
+		fruits[3] = 'mango';
+
+		console.log(fruits.sort());
+		console.log(fruits.reverse());
+		console.log(fruits.length);
+		console.log(fruits.push('grep'));
+		console.log(fruits.pop());
+		console.log(fruits.length);
+		console.log(fruits.toString());
+		document.write(fruits.toString());
+		*/
+
+		var p = [9,10,11,3,2,6];
+		var max = -9999;
+		var dayB = -7777;
+		var dayS = -7777;
+		for(i=0;i<6;i++)
+		{
+			for(j=i+1;j<6;j++)
+			{
+				profit = p[j]-p[i];
+				if(profit>max)
+				{
+					max = profit;
+					dayB = i+1;
+					dayS = j+1;
+
+				}
+			}
+		}
+		console.log(max);
+		console.log(dayB);
+		console.log(dayS);
+
+	</script>
+</body>
+</html>
